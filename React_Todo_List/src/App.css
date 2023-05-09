@@ -1,26 +1,75 @@
-*{
+*{ 
+   
     box-sizing: border-box;
     margin   : 0;
     padding  : 0;
     justify-content: center;
     align-items: center;
+   
 }
 .TodoItem{
     width: 300px;
     height: 50px;
-    border: 1px solid lightblue;
+    color: white;
+    font-size: 30px;
+
 }
 .TodoInput{
     width: 300px;
     height: 50px;
-    border: 1px solid lightblue;
+    background-color: gray;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 50px;
 }
 .TodoInputBut{
-   font-size: xx-large;
+   font-size:20px; padding:10px 30px;
+   border-radius: 10px;
+   color: white;
+   background-color: gray;
 }
 .TodoInputDelBut{
     font-size: xx-large;
+   
 }
 .TodoTotal{
-    border: 1px solid lightblue;
+
+}
+.deleteFrame{
+display: flex;
+flex-direction: column;
+}
+.deleteButton{
+    flex-direction: row;
+    flex-grow: 0;
+    position: relative;
+    right: -250px;
+    top: -40px;
+    color: white;
+   background-color: gray;
+}
+
+.one{
+    text-align: center;
+}
+.InputName{
+  
+    flex-direction: row;
+    flex-grow: 0;
+    
+}
+
+.frame{
+    background-color: rgb(77, 77, 77);
+}
+.App{
+    height: 500px;
+    background-color: rgb(77, 77, 77);
+}
+.checkBut{
+    position: relative;
+    right: -150px;
+    top: -40px;
 }

@@ -1,13 +1,25 @@
 import React from "react"
 import TodoItem from "./TodoItem"
-function TodoBoard({toPassOverData}){
+function TodoBoard({toPassOverData,setsaveTodo}){
+ 
+
+
+const deleteClick =(index) =>{
+  setsaveTodo(
+    toPassOverData.filter((item,delKey) => (delKey!==index))
+    )
+    console.log('지운데이터',toPassOverData)
+}
     return (
-        <div>
-        <h1> TodoBoard</h1>
-         {/* {props.map((props) => <TodoItem props ={props.text} key={props.id}/>)}  TodoItem을 에 입력한 데이터 하나씩 출력  */}
-         {toPassOverData.map((item) => <TodoItem item={item}/>)}
-         
+   
+        <div className="deleteFrame">
+           {toPassOverData.map((item,index) => <div key={index}><TodoItem item ={item} />
+           {/* 삭제버튼 */}
+             <button className="deleteButton" onClick={() =>{deleteClick(index)}} >제거</button>
+            { <span className="checkBut"> ✅</span>}
+        </div>)}
         </div>
+      
       )
 }
 

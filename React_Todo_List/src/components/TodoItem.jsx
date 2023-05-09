@@ -4,6 +4,7 @@ function TodoItem({item}){
         
         <div className="TodoItem">
           {item}
+          
         </div>
       
       )
