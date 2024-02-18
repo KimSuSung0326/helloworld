@@ -7,69 +7,19 @@
     align-items: center;
    
 }
-.TodoItem{
-    width: 300px;
-    height: 50px;
-    color: white;
-    font-size: 30px;
 
-}
-.TodoInput{
-    width: 300px;
-    height: 50px;
-    background-color: gray;
-    border-radius: 10px;
-    font-size: 30px;
-    color: white;
-    margin-right: 10px;
-    margin-bottom: 50px;
-}
-.TodoInputBut{
-   font-size:20px; padding:10px 30px;
-   border-radius: 10px;
-   color: white;
-   background-color: gray;
-}
-.TodoInputDelBut{
-    font-size: xx-large;
-   
-}
-.TodoTotal{
 
-}
-.deleteFrame{
-display: flex;
-flex-direction: column;
-}
-.deleteButton{
-    flex-direction: row;
-    flex-grow: 0;
-    position: relative;
-    right: -250px;
-    top: -40px;
-    color: white;
-   background-color: gray;
-}
 
-.one{
-    text-align: center;
-}
-.InputName{
-  
-    flex-direction: row;
-    flex-grow: 0;
-    
-}
 
 .frame{
     background-color: rgb(77, 77, 77);
 }
 .App{
-    height: 500px;
-    background-color: rgb(77, 77, 77);
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+    border: 2px solid rgb(194, 190, 255);
+    border-radius: 1rem;
 }
-.checkBut{
-    position: relative;
-    right: -150px;
-    top: -40px;
-}
+
+

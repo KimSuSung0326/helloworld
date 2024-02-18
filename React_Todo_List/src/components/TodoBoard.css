@@ -1,0 +1,37 @@
+
+    .deleteFrame{
+    display: flex;
+    flex-direction: column;
+   
+    }
+    .deleteButton{
+        flex-direction: row;
+        flex-grow: 0;
+        position: relative;
+        right: -250px;
+        top: -23px;
+        color: white;
+       background-color:rgb(194, 190, 255);
+       border-radius: 4px ;
+       border-color: rgb(167, 161, 255);
+    }
+    .checkBut{
+        position: relative;
+        right: -120px;
+        top: -20px;
+      
+    }
+    .checkBut-false{
+        position: relative;
+        right: -120px;
+        top: -20px;
+    }
+    .TodolistBox{
+        border-radius: 8px;
+        border: 1px solid rgb(194, 190, 255);
+        background-color: white;
+        width: 350px;
+        margin: 10px 0 10px 0;
+        box-shadow: 4px 4px rgb(194, 190, 255)
+       
+    }
