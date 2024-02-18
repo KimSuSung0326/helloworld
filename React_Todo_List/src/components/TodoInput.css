@@ -1,0 +1,32 @@
+.TodoInput {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(194, 190, 255);
+    border-radius: 10px;
+    border-color: rgb(194, 190, 255);;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    overflow: auto; 
+    &::placeholder {
+    color: rgb(255, 255, 255);
+}
+}
+
+.TodoInputBut{
+   font-size:20px; padding:10px 30px;
+   border-radius: 10px;
+   border-color: rgb(194, 190, 255);
+   color: white;
+   background-color: rgb(194, 190, 255);
+  
+}
+.one{
+    text-align: center;
+    color: rgb(194, 190, 255);
+    margin-bottom: 16px;
+}
+.titleWrap{
+    padding:1rem; 
+}
