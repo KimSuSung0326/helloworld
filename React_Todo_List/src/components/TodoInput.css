@@ -30,3 +30,9 @@
 .titleWrap{
     padding:1rem; 
 }
+.TitleContainer{
+    color: rgb(194, 190, 255);
+    margin-left: 20px;
+    font-size: large;
+    text-align: center;
+}

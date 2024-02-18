@@ -1,11 +1,14 @@
 import React from "react"
-function TodoItem({item}){
+import "./TodoItem.css"
+function TodoItem({item, ischeck}){
+ 
     return (
         
-        <div className="TodoItem">
+       <>
+        <div className= {`TodoItem ${ischeck ? 'checked' : ''}`}>
           {item}
-          
         </div>
+       </>
       
       )
 }
